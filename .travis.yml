@@ -4,7 +4,7 @@ services:
 language: go
 go:
 - '1.7'
-# Make sure we have p2 and the postgres client.
+# Make sure we have p2 and the postgres client. 
 before_install:
 - sudo wget -O /usr/local/bin/p2 https://github.com/wrouesnel/p2cli/releases/download/r4/p2 &&
   sudo chmod +x /usr/local/bin/p2
